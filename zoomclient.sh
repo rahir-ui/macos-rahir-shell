@@ -2,10 +2,10 @@
 
 # Update with Installomator if app exist
 
-# This will create a log into '/tmp/installometer_app_install.log'
+# This will create a log into '/Library/Intune/installometer_app_install.log'
 exec 3>&1 4>&2
 trap 'exec 2>&4 1>&3' 0 1 2 3
-exec 1>/tmp/installometer_app_install.log 2>&1
+exec 1>/Library/Intune/installometer_app_install.log 2>&1
 
 LOGO="microsoft" # "mosyleb", "mosylem", "addigy", "microsoft", "ws1", "kandji"
 
