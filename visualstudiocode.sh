@@ -12,7 +12,7 @@ LOGO="microsoft" # "mosyleb", "mosylem", "addigy", "microsoft", "ws1", "kandji"
 item="visualstudiocode" # enter the software to install
 # Examples: cyberduck, handbrake, textmate, vlc
 
-appPath="/Applications/Sublime Text.app"
+appPath="/Applications/Visual Studio Code.app"
 # Examples: Cyberduck.app, Handbrake.app, Textmate.app, VLC.app
 
 installomatorOptions="DEBUG=0 BLOCKING_PROCESS_ACTION=prompt_user NOTIFY=success" # Separated by space
